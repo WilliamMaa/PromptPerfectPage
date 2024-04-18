@@ -13,9 +13,6 @@
 
                 <el-col :span="2" style="text-align: right;">
                     <div class="affix-header-login-wrapper">
-                        <!-- <el-icon :size="20" style="margin-right: 5px; vertical-align: middle;">
-                            <Search />
-                        </el-icon> -->
                         <q-icon name="api" size="1.5rem" style="margin-right: 5px; vertical-align: middle;"></q-icon>
                         <span style="font-size: 14px; font-weight: 500">API</span>
                     </div>
@@ -392,11 +389,9 @@ export default {
         }
 
         function hoverScroller(event, number) {
-            console.log("scroller-" + String(number))
             document.getElementById("scroller-" + String(number)).style.animationPlayState = 'paused';
         }
         function leaveScroller(event, number) {
-            console.log("scroller-" + String(number))
             document.getElementById("scroller-" + String(number)).style.animationPlayState = 'running';
         }
         return { languageDropdownChange, toggleState, checked, checked2, chat_items_1, chat_items_2, hoverScroller, leaveScroller }

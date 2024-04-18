@@ -418,7 +418,7 @@
 
                         <q-tab-panel name="JAVASCRIPT">
                             <q-markdown :no-highlight="false" :no-line-numbers="false" show-copy>
-                                ```
+                                ```js
                                 resp = fetch('https://api.promptperfect.jina.ai/example', {
                                 headers: {
                                 'content-type': 'application/json'
@@ -434,7 +434,7 @@
 
                         <q-tab-panel name="PYTHON">
                             <q-markdown :no-highlight="false" :no-line-numbers="false" show-copy>
-                                ```python3
+                                ```python
                                 #!pip install requests
                                 import requests
 
