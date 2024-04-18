@@ -463,7 +463,6 @@
 import { ref } from 'vue';
 import { QMarkdown } from '@quasar/quasar-ui-qmarkdown'
 import '@quasar/quasar-ui-qmarkdown/dist/index.css'
-import { toggleRowStatus } from 'element-plus/es/components/table/src/util';
 export default {
     components: {
         QMarkdown,
